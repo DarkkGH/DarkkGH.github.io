@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --background-color-1: white;
+    --background-color-1: #f3f3f3;
     --background-color-2: #2e2c2c;
     --text-color-1: #111;
     --text-color-2: #f3f3f3;
@@ -37,7 +37,7 @@
     font-size: 1rem;
     text-decoration: none;
     padding: 10px;
-    background-color: #f3f3f3  ;
+    background-color: var(--background-color-1);
     border-radius: 14px;
 
 }
