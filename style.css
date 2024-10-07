@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --background-color-1: white;
+    --background-color-2: #2e2c2c;
+    --text-color-1: #111;
+    --text-color-2: #f3f3f3;
+    --highlight-color: #161d46;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+#navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--highlight-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    font-family: Rubik;
+
+}
+
+.navbar-word {
+    color: #1e1e1e ;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f3f3f3  ;
+    border-radius: 14px;
+
+}
