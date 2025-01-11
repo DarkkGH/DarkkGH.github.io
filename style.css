@@ -142,6 +142,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }
 
 #about-content {
@@ -162,7 +163,7 @@ body {
 }
 
 #specialities {
-    height: max(50%);
+    height: max(20%);
     width: max(50%, 350px);
     text-align: center;
     padding: 1px;
@@ -176,11 +177,27 @@ body {
 }
 
 #spec-content{
-    width: max(50%, 550px);
-    height: 45px;
+    width: max(50%, 400px);
     margin: 18px, auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 25px;
+}
+
+#spec-info {
+    margin: 18px, auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#spec-icons {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    align-items: center;
 }
