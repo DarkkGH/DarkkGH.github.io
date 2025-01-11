@@ -155,7 +155,7 @@ body {
 #about-info {
     width: max(50%, 550px);
     height: 45px;
-    margin: 18px, auto 0;;
+    margin: 18px, auto 0;
     display: flex;
     justify-content: center;
     align-items: center;
