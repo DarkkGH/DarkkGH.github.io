@@ -125,3 +125,37 @@ body {
     text-decoration: none;
     margin-top: 7px;
 }
+
+#about-section {
+    height: 100vh;
+}
+
+#about-header {
+    height: 100%;
+    width: max(50%, 350px);
+    text-align: center;
+    padding: 12px 14px;
+    margin: auto;
+    font-weight: bold;
+    color: var(--background-color-1);
+    font-size: 30px;
+}
+
+#about-content {
+    height: 100%;
+    width: max(50%, 350px);
+    padding-top: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about-info {
+    width: max(50%, 550px);
+    height: 45px;
+    margin: 0 auto;
+    margin-top: 18px;
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    padding: 3px 6px;
+}
