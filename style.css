@@ -161,3 +161,27 @@ body {
     align-items: center;
     padding-top: 25px;
 }
+
+#specialities {
+    height: max(50%);
+    width: max(50%, 350px);
+    text-align: center;
+    padding: 1px;
+    margin: auto;
+    font-weight: bold;
+    color: var(--background-color-1);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spec-content{
+    width: max(50%, 550px);
+    height: 45px;
+    margin: 18px, auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
