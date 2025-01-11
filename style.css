@@ -134,11 +134,14 @@ body {
     height: 100%;
     width: max(50%, 350px);
     text-align: center;
-    padding: 12px 14px;
+    padding: 12px;
     margin: auto;
     font-weight: bold;
     color: var(--background-color-1);
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #about-content {
@@ -152,10 +155,9 @@ body {
 #about-info {
     width: max(50%, 550px);
     height: 45px;
-    margin: 0 auto;
-    margin-top: 18px;
+    margin: 18px, auto 0;;
     display: flex;
-    justify-content: normal;
+    justify-content: center;
     align-items: center;
-    padding: 3px 6px;
+    padding-top: 25px;
 }
