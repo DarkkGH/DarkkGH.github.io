@@ -139,7 +139,7 @@ body {
     margin: auto;
     font-weight: bold;
     color: var(--background-color-1);
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +161,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+    font-size: 20px;
 }
 
 #specialities {
@@ -171,7 +172,7 @@ body {
     margin: auto;
     font-weight: bold;
     color: var(--background-color-1);
-    font-size: 30px;
+    font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
