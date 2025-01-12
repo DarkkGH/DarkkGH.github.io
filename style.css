@@ -148,14 +148,14 @@ body {
 
 #about-content {
     height: 100%;
-    width: max(50%, 350px);
+    width: 100%;
     padding-top: 5px;
     margin: 0 auto;
     text-align: center;
 }
 
 #about-info {
-    width: 100%;
+    width: 50%;
     margin: 18px, auto 0;
     display: flex;
     justify-content: center;
@@ -165,8 +165,8 @@ body {
 }
 
 #specialities {
-    height: max(20%);
-    width: max(50%, 350px);
+    height: 20%;
+    width: auto;
     text-align: center;
     padding: 1px;
     margin: auto;
@@ -179,7 +179,7 @@ body {
 }
 
 #spec-content{
-    width: max(50%, 350px);
+    width: 100%;
     margin: 0% auto;
     display: flex;
     justify-content: center;
@@ -194,15 +194,17 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: auto;
 }
 
 #spec-icons {
     margin: auto;
-    width: calc(100% - 15px);
+    width: 100%;
     display: flex;
     justify-content: center;
     font-size: 80px;
     align-items: center;
     text-align: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
