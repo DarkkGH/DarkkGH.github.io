@@ -155,13 +155,15 @@ body {
 }
 
 #about-info {
-    width: 50%;
-    margin: 18px, auto 0;
+    width: 90%;
+    max-width: 70ch;
+    margin: 18px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 25px;
     font-size: 20px;
+    text-align: center;
 }
 
 #specialities {
