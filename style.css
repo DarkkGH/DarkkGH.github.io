@@ -210,3 +210,16 @@ body {
     gap: 15px;
     flex-wrap: wrap;
 }
+
+#project-header {
+    width: max(50%, 350px);
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: var(--text-color-1);
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
