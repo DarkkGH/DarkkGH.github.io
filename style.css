@@ -223,3 +223,7 @@ body {
     align-items: center;
     padding-top: 50px;
 }
+
+.skill-icon {
+    text-shadow: 3px 4px #111;
+}
